@@ -402,4 +402,15 @@ Start small. Master each piece before combining them.
 - **Change one thing at a time.** If you change 5 things and it breaks, you won't know which caused it.
 - **Build your own version.** The demo above is a starting point. Make it yours.
 
-When you are ready, create your first notebook in this folder and start with Step 1.
+## Practice Notebooks in This Folder
+
+| Notebook | What You Practise |
+|---|---|
+| `01_personal_research_assistant.ipynb` | Full capstone: LLM → tools → agent → structured output → RAG → FAISS |
+| `02_prompt_engineering_and_structured_output.ipynb` | Prompt templates, role/few-shot prompts, format instructions, Pydantic |
+| `03_rag_and_vector_search.ipynb` | Embeddings, cosine similarity, FAISS, chunking, document loaders, save/load |
+| `04_tools_and_agents.ipynb` | Custom tools, tool binding, ReAct agent, manual tool-calling loop |
+
+Start with **01** if you want the big picture, or jump to **02/03/04** to drill a specific topic.
+
+When you are ready, open `01_personal_research_assistant.ipynb` and run each cell one by one.
