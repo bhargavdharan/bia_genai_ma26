@@ -236,6 +236,23 @@ Your complete learning path from "What is an LLM?" to "Build a full multi-agent 
 
 ---
 
+### 12 — Concept Flashcards & Relationship Map (`12_flashcards.md`)
+
+**One-line summary**: 40 connected flashcards that explain not just *what* each concept is, but *how it relates* to the others.
+
+**What you learn**:
+- Core definitions (LLM, token, embedding, agent, RAG)
+- Prompt engineering and structured output patterns
+- How tools, function calling, and agents connect
+- Why RAG needs embeddings and vector databases
+- Cross-concept questions that test real understanding
+
+**Prerequisites**: ALL previous notes (01-11) — best used as a review tool
+
+**Repo folder**: `study_notes/`
+
+---
+
 ### 09 — Building Product Recommendation Agent (`09_building_product_recommendation_agent.md`)
 
 **One-line summary**: The capstone project — a 4-agent pipeline (Discovery → Specs → Reviews → Recommendation) that recommends products using everything you've learned.
@@ -293,6 +310,7 @@ Generate-critique-refine        07_self_reflection_and_critique.md              
 Sentiment analysis (LLM-based)  08_sentiment_analysis.md                mini_project_sprint/
 RAG pipeline (load-chunk-embed) 10_rag_fundamentals.md                   7_RAG/
 Vector DBs & similarity search  11_vector_databases_and_faiss.md        7_RAG/3_FAISS/
+Concept flashcards & relations  12_flashcards.md                        study_notes/
 4-agent product recommender     09_building_product_recommendation_agent.md  mini_project_sprint/
 ```
 
@@ -322,6 +340,8 @@ Which notes depend on which? Use this if you want to jump to a specific topic:
  ├──▶ 10 RAG Fundamentals (needs 01, 03)                       │
  │     │                                                       │
  │     └──▶ 11 Vector Databases & FAISS (needs 10)             │
+ │                                                             │
+ ├──▶ 12 Concept Flashcards (review of 01-11)                  │
  │                                                             │
  └──▶ 09 Capstone Project (needs ALL of 01-11) ◀──────────────┘
 ```
